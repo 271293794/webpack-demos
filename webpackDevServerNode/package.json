@@ -1,0 +1,26 @@
+{
+  "name": "webpackDevserver",
+  "version": "1.0.0",
+  "description": "webpackDevserver lesson",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^3.8.1"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^2.30.1",
+    "webpack-dev-server": "^2.9.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/webxiaoma/webpack-domes.git"
+  },
+  "author": "webxiaoma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webxiaoma/webpack-domes/issues"
+  },
+  "homepage": "https://github.com/webxiaoma/webpack-domes#readme"
+}
