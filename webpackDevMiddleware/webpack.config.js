@@ -16,17 +16,19 @@ module.exports = {
         path: BUILD_PATH,
         filename: 'bundle.js'//将app文件夹中的两个js文件合并成build目录下的bundle.js文件
     },
+    module: {
+        rules: [
+          { 
+            test: /\.css$/, 
+            use: ['style-loader','css-loader']
+          },
+        ]
+    },
     //添加我们的插件 会自动生成一个html文件
     plugins: [
         new HtmlwebpackPlugin({
             title: 'Hello World app'
         }),//在build目录下自动生成index.html，指定其title
-        new webpack.HotModuleReplacementPlugin(),
     ],
-    devServer: {
-      historyApiFallback: true,
-      inline: true,//注意：不写hot: true，否则浏览器无法自动更新；也不要写colors:true，progress:true等，webpack2.x已不支持这些
-      hot: true,
-    },
 
 };
