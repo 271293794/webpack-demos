@@ -1,0 +1,25 @@
+{
+  "name": "chalk-semver-shelljs",
+  "version": "1.0.0",
+  "description": "chalk 插件 semver 插件  shell插件",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "all": "node all.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webxiaoma/webpack-domes.git"
+  },
+  "author": "webxiaoma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webxiaoma/webpack-domes/issues"
+  },
+  "homepage": "https://github.com/webxiaoma/webpack-domes#readme",
+  "devDependencies": {
+    "chalk": "^2.3.0",
+    "semver": "^5.4.1",
+    "shelljs": "^0.7.8"
+  }
+}

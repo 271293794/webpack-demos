@@ -23,3 +23,5 @@ npm start //执行命令，具体命令可以查看 package.json文件
 [webpack-dev-middleware 模块](http://www.webxiaoma.com/blogs/2017/10/28/webpack-dev-middleware)
 
 [webpack-hot-middleware 模块](http://www.webxiaoma.com/blogs/2017/10/28/webpack-hot-middleware)
+
+[http-proxy-middleware 模块（练习暂无）](http://webxiaoma.com/blogs/2017/10/30/http-proxy-middleware)
