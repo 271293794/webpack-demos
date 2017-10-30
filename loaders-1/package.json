@@ -1,0 +1,25 @@
+{
+  "name": "loader-lesson",
+  "version": "1.0.0",
+  "description": "loader lesson",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webxiaoma/webpack-domes.git"
+  },
+  "author": "webxiaoma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webxiaoma/webpack-domes/issues"
+  },
+  "homepage": "https://github.com/webxiaoma/webpack-domes#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^3.8.1"
+  }
+}
