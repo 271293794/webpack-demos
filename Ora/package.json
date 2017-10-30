@@ -1,0 +1,22 @@
+{
+  "name": "ora-lesson",
+  "version": "1.0.0",
+  "description": "实现node.js 命令行环境的 loading效果",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webxiaoma/webpack-domes.git"
+  },
+  "author": "webxiaoma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webxiaoma/webpack-domes/issues"
+  },
+  "homepage": "https://github.com/webxiaoma/webpack-domes#readme",
+  "devDependencies": {
+    "ora": "^1.3.0"
+  }
+}
