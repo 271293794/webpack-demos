@@ -24,7 +24,7 @@ let hotMiddleware = webpackHotMiddleware(compiler,{
    heartbeat: 2000,
 })
 
-app.use(devMiddleware)
+app.use(devMiddleware);
 
 app.use(hotMiddleware);
 
