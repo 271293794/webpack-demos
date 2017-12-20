@@ -18,10 +18,16 @@ npm start //执行命令，具体命令可以查看 package.json文件
 
 #### 文章地址
 
-[webpack-dev-server 模块](http://www.webxiaoma.com/blogs/2017/10/20/webpack-dev-server)
+- [缓存caching](https://github.com/webxiaoma/webpack-demos/tree/master/caching)
 
-[webpack-dev-middleware 模块](http://www.webxiaoma.com/blogs/2017/10/28/webpack-dev-middleware)
+- [创建库library](https://github.com/webxiaoma/webpack-demos/tree/master/library)
 
-[webpack-hot-middleware 模块](http://www.webxiaoma.com/blogs/2017/10/28/webpack-hot-middleware)
+- [插件的编写](https://github.com/webxiaoma/webpack-demos/tree/master/plugins)
 
-[http-proxy-middleware 模块（练习暂无）](http://webxiaoma.com/blogs/2017/10/30/http-proxy-middleware)
+- [webpack-dev-server 模块](http://www.webxiaoma.com/blogs/2017/10/20/webpack-dev-server)
+
+- [webpack-dev-middleware 模块](http://www.webxiaoma.com/blogs/2017/10/28/webpack-dev-middleware)
+
+- [webpack-hot-middleware 模块](http://www.webxiaoma.com/blogs/2017/10/28/webpack-hot-middleware)
+
+- [http-proxy-middleware 模块（练习暂无）](http://webxiaoma.com/blogs/2017/10/30/http-proxy-middleware)
