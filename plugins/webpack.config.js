@@ -8,16 +8,16 @@ const PluginThree = require('./plugin-three');
 
 
 module.exports = {
-    entry:{
-        index:'./src/index.js'
+    entry: {
+        index: './src/index.js'
     },
-    output:{
+    output: {
         path: __dirname + '/build',
-        filename:'[name].js',
+        filename: '[name].js'
     },
-    plugins:[
+    plugins: [
     //   new PluginOne(),
     //   new PluginTwo(),
-     new PluginThree({fileList:true}) // 没有fileList 默认为false,如果为false则不生成清单文件file-list.md
+     new PluginThree({fileList: true}) // 没有fileList 默认为false,如果为false则不生成清单文件file-list.md
     ]
-}
+};
