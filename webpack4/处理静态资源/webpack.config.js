@@ -37,7 +37,7 @@ module.exports = {
 
                 // ***使用 url-loader 处理图片***//
             {
-                test: /\.(png|jpe?g|gif)$/,
+                test: /\.(png|jpe?g|gif|svg)$/,
                 use: [
                     {
                         loader: 'url-loader',
