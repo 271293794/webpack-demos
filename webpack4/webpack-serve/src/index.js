@@ -9,4 +9,4 @@ let objTwo = {
 }
 let newObj = Object.assign(objOne,objTwo)
 
-console.log('21211')
+console.log('1321')

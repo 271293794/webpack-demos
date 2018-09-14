@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "npx webpack-dev-server"
+    "start": "npx webpack-serve"
   },
   "author": "webxiaoma",
   "license": "ISC",
@@ -18,6 +18,6 @@
     "html-webpack-template": "^6.2.0",
     "webpack": "^4.16.5",
     "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.8"
+    "webpack-serve": "^2.0.2"
   }
 }
