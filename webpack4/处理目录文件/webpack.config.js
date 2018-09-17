@@ -65,7 +65,7 @@ module.exports = {
             ]
         }),
         new CleanWebpackPlugin(['dist']),
-        new CopyWebpackPlugin([
+        new CopyWebpackPlugin([ // 复制目录
             {
                 // 要复制的目录
                 from: path.resolve(__dirname, './static'),
