@@ -33,3 +33,4 @@
 - [提取公共模块](http://webxiaoma.com/webpack/%E6%8F%90%E5%8F%96%E5%85%AC%E5%85%B1%E6%A8%A1%E5%9D%97.html)
 
 - [编写 Plugins](http://webxiaoma.com/webpack/%E7%BC%96%E8%AF%91plugins.html)
+- [编写 Loader](http://webxiaoma.com/webpack/编写loader.html)
